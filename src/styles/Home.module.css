@@ -1,0 +1,36 @@
+.first{
+    background:url('/fragnance.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.first button{
+    border: none;
+    border-radius: 2px;
+    opacity: 1;
+    color: black;
+    font: normal normal 600 14px/26px Calibri;
+    letter-spacing: 1.4px;
+    padding: 14px 20px;
+    cursor: pointer;
+    position: relative;
+}
+.second{
+   margin: 5%;
+   text-align: center;
+}
+.second h1{
+    padding: 2%;
+}
+.Whyus{
+    display: flex;
+}
+.productSection{
+    display: flex;
+}

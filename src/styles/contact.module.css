@@ -1,0 +1,84 @@
+.section1{
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh; 
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.section1 h1{
+    font-size:250%;
+    padding: 2%;
+}
+
+.section1 p{
+    font-size: small;
+    color:lightgray;
+}
+.enquiry{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: 80vh;
+}
+.enquiry h1{
+    padding-bottom: 5%;
+    font-size: xx-large;
+}
+.enquiry p{
+    padding: 2% 0;
+    font-size: large;
+    color: rgb(101, 93, 93);
+}
+.enquiry input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+.enquiry button{
+    padding: 2%;
+    margin-top: 5%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 80px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+.enquiry textarea{
+    height: 200px;
+    width: 450px;
+}
+
+.faqs{
+    background-color: rgb(255, 233, 214);
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    padding: 6%;
+    height: 43vh;
+}
+.leftfaq h1{
+    padding-bottom: 3%;
+}
+.leftfaq p{
+    color: rgb(92, 84, 84);
+}
+.faq{
+    margin-bottom: 5%;
+}
+.faq h1{
+    padding-bottom: 2%;
+}
+.faq p{
+    padding-bottom: 2%;
+    color: rgb(92, 84, 84);
+}

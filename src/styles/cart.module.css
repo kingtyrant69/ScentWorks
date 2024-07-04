@@ -1,0 +1,22 @@
+.section1{
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh; 
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.section1 h1{
+    font-size:250%;
+    padding: 2%;
+}
+
+.section1 p{
+    font-size: small;
+    color:lightgray;
+}
